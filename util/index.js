@@ -13,5 +13,5 @@ export async function loadData(filename) {
   });
 
   await finished(stream);
-  return data;
+  return data.trim();
 }
